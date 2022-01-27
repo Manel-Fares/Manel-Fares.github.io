@@ -481,7 +481,9 @@ ol {
 	Hero section 
 -----------------------*/
 .hero-section {
-	background: #a6c7e8;
+
+	width: 1510px;
+	height: 551px;
 }
 
 .hero-text {
@@ -560,22 +562,23 @@ ol {
 }
 
 .about-social {
-	margin-top: 30px;
+	margin-top: 383px;
 }
 .about-social li {
 	display: inline-block;
 	margin-bottom: 3px;
 }
 .about-social a {
-	width: 42px;
-	height: 42px;
-	line-height: 42px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
 	text-align: center;
-	color: #333333;
-	background: #dddddd;
+	font-size: 24px;
+	color: #171617;
+	background: rgba(84, 50, 79, 0.6);
 }
 .about-social a:hover {
-	background: #a6c7e8;
+	background: #604560;
 	color: white;
 }
 .hero-info ul li span {

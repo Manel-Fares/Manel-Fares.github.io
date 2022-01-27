@@ -73,7 +73,7 @@ img {
 .box-content {
 	width:800px;
 	height:400px;
-	background: rgba(245, 241, 235, 0.83);
+	background: #e6efff;
 	color: #000000;
 	font-family: 'Arial Rounded MT Bold';
 	padding: 0px;
@@ -397,7 +397,30 @@ ol {
 .language-progress .lan-prog span.fade-ele {
 	background: #cacaca;
 }
+.card {
+	background: rgba(243, 250, 255, 0.84);
+}
 
+.card p {
+	color: #3d3d3d;
+	font-size: 14px;
+	text-align: center;
+}
+
+.card h3 {
+	color: #051659;
+	font-size: 24px;
+	text-align: center;
+	font-family: "Palatino Linotype";
+	font-style: italic;
+}
+.card h5 {
+	color: #3d3d3d;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: "Arial Rounded MT Bold";
+}
 /* Icon Box */
 .icon-box {
 	text-align: center;
@@ -1137,21 +1160,7 @@ ol {
 	color: #fff;
 }
 
-.home-four-style .main-left-area {
-	position: relative;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#481340+0,ff0f3c+100,ff0f3c+100 */
-	background: #481340;
-	/* Old browsers */
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #481340 0%, #ff0f3c 100%, #ff0f3c 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, left bottom, from(#481340), color-stop(100%, #ff0f3c), to(#ff0f3c));
-	background: -o-linear-gradient(top, #481340 0%, #ff0f3c 100%, #ff0f3c 100%);
-	background: linear-gradient(to bottom, #481340 0%, #ff0f3c 100%, #ff0f3c 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#481340', endColorstr='#ff0f3c', GradientType=0);
-	/* IE6-9 */
-}
+
 
 
 .home-four-style .main-left-area h1,
